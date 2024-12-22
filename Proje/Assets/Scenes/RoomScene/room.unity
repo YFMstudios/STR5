@@ -770,7 +770,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 434653570}
+      - m_Target: {fileID: 434653571}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: SendMessage
         m_Mode: 5
@@ -1548,6 +1548,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736102070}
   m_CullTransparentMesh: 1
+--- !u!1 &794011958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794011960}
+  - component: {fileID: 794011959}
+  m_Layer: 0
+  m_Name: RoomManageri
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &794011959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794011958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda089aae8f3b024ea18af9d5b98e1a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messageInputField: {fileID: 346334046}
+  sendButton: {fileID: 434653567}
+  messageContainer: {fileID: 1565599876}
+  messagePrefab: {fileID: 6841257502101438074}
+--- !u!4 &794011960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794011958}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1109.5345, y: 522.1577, z: 3.8247664}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &816970446
 GameObject:
   m_ObjectHideFlags: 0
@@ -4481,3 +4529,4 @@ SceneRoots:
   - {fileID: 472395671}
   - {fileID: 1431651623}
   - {fileID: 1505549629}
+  - {fileID: 794011960}
